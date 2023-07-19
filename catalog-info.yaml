@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Koslog-Front"
+  description: "Website for koslog "
+  annotations:
+    github.com/project-slug: officialsamtech/koslogfront
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://vuejs.org/
+      title: Vue.js Koslog
+      icon: site
+  tags:
+    - website
+    - vue
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/koslog"
